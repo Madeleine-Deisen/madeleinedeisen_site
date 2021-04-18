@@ -13,11 +13,6 @@ output:
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
-```
-
-I used the New York Time's coronavirus case and death data, which contains a cumulative daily count of the total cases and deaths in each state, to create a choropleth map that compares deaths in each state as of February 22, 2021. I used the Tmaps package to create this map.
-
-```{r}
 library(tidyverse)
 library(lubridate)
 library(readxl)
@@ -31,28 +26,9 @@ library(tigris)
 library(tmap)
 library(tmaptools)
 options(tigris_class = "sf")
-
-#import the NYT's covid case data for states
-covidcases <- read_csv("https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-states.csv")
-
-#Download the polygon boundaries for states at the lowest resolution using tigris package
-states <- tigris::states(cb=T)
-
-#Filter for Feb 22
-covidcases_Feb22 <- covidcases %>%
-  filter(date == "2021-02-22")
-
-#Look at state, date, and deaths
-covid_deaths <- covidcases_Feb22 %>%
-  select(date, state, deaths)
-
-#Geojoin with states
-states_merged_with_covid <- geo_join(states, covid_deaths, "NAME", "state")
-
-#Make map with tmaps
-tm_shape(states_merged_with_covid) + tm_polygons("deaths")
 ```
-I also created a map of residential sales in Sacramento, California using Leaflet. The size of the dots corresponds to the price of each sale.
+
+I created a map of residential sales in Sacramento, California using Leaflet. The size of the dots corresponds to the price of each sale.
 
 ```{r}
 sac_sales <- read_csv("https://support.spatialkey.com/wp-content/uploads/2021/02/Sacramentorealestatetransactions.csv")
