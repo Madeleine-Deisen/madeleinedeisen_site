@@ -2,18 +2,24 @@
   "articles": [
     {
       "path": "about.html",
-      "title": "About this blog",
-      "description": "Some additional details about the blog",
-      "author": [],
-      "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-04-13T16:42:08-07:00"
+      "title": "About me",
+      "description": "Learn more about who I am & what I do\n",
+      "author": [
+        {
+          "name": "Madeleine Deisen",
+          "url": "https://www.linkedin.com/in/madeleine-deisen/"
+        }
+      ],
+      "date": "04-18-2021",
+      "contents": "\r\nMy name is Madeleine Deisen, and I’m a Journalism & Mass Communication student at the George Washington University’s School of Media and Public Affairs. Through my journalism classes, I have learned to use R, Stata, and the Adobe Creative Suite. I am also experienced in news writing and reporting, and I have studied topics including journalism ethics, global journalism, and social media.\r\nIn addition to my journalism classes, I am minoring in Spanish & Latin American Languages, Literatures & Cultures. I studied abroad in Madrid through a GW program at the Universidad Autónoma de Madrid to hone my Spanish speaking and writing skills.\r\nI’m excited to share examples of my work with you through this website. Check out my blog posts for more details!\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-04-18T13:05:12-07:00"
     },
     {
       "path": "index.html",
       "title": "Madeleine Deisen's Website",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-04-13T16:42:09-07:00"
+      "last_modified": "2021-04-18T13:05:13-07:00"
     }
   ],
   "collections": ["posts/posts.json"]

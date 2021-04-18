@@ -2,8 +2,22 @@
 title: "About me"
 description: |
   Learn more about who I am & what I do
+author:
+  - name: Madeleine Deisen 
+    url: https://www.linkedin.com/in/madeleine-deisen/
+    affiliation: Journalism Student at the George Washington University
+    affiliation_url: https://smpa.gwu.edu/
+date: 04-18-2021
+output:
+  distill::distill_article:
+    self_contained: false
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
+My name is Madeleine Deisen, and I'm a Journalism & Mass Communication student at the George Washington University's School of Media and Public Affairs. Through my journalism classes, I have learned to use R, Stata, and the Adobe Creative Suite. I am also experienced in news writing and reporting, and I have studied topics including journalism ethics, global journalism, and social media. 
+
+In addition to my journalism classes, I am minoring in Spanish & Latin American Languages, Literatures & Cultures. I studied abroad in Madrid through a GW program at the Universidad Autónoma de Madrid to hone my Spanish speaking and writing skills.
+
+I'm excited to share examples of my work with you through this website. Check out my blog posts for more details!

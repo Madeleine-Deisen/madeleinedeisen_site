@@ -1,11 +1,10 @@
 ---
-title: "Second Post"
+title: "Graphs using R"
 description: |
-  A short description of the post.
+  Here is an example of my graphing skills using R for a class assignment.
 author:
   - name: Madeleine Deisen
-    url: https://www.linkedin.com/in/madeleine-deisen/
-date: 04-13-2021
+date: 04-18-2021
 output:
   distill::distill_article:
     self_contained: false
@@ -13,12 +12,46 @@ output:
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
+library(tidyverse)
+library(plotly)
+library(nycflights13)
 ```
 
-Distill is a publication format for scientific and technical writing, native to the web.
+I used the Flights dataset and Plotly in R to create a bar chart showing the breakdown of flights by airline that originate from JFK airport and are more than 400 minutes in length.
 
-Learn more about using Distill at <https://rstudio.github.io/distill>.
+```{r}
+question7_flights <- filter(flights, origin=="JFK" & air_time>400) %>%
+    count(carrier)
 
-Practice using **visual mode.**
+fig <- plot_ly(
+  x = question7_flights$carrier,
+  y = question7_flights$n,
+  name = "Flights from JFK Airport Longer Than 400 Minutes",
+  type = "bar"
+)
 
-Insert image here:![Graphic for Fall Call Fest](images/sl_callfest_IG.png)
+fig
+```
+
+I also created a donut chart showing the share of flights each airline has of flights with a destination of Daniel K. Inouye International Airport (HNL) in Honolulu.
+
+```{r}
+flights_data <- filter(flights, dest=="HNL") %>%
+  count(carrier)
+flights_data
+
+fig <- plot_ly(labels = flights_data$carrier, values = flights_data$n) %>%
+  add_pie(hole = 0.6)
+fig
+```
+
+Finally, I created a scatterplot chart for flights with a destination of Daniel K. Inouye International Airport (HNL) in Honolulu that shows the relationship between the departure delay and arrival delay.
+
+```{r}
+flights_HNL <- filter(flights, dest=="HNL")
+flights_HNL
+
+fig <- plot_ly(data = flights_HNL, x = flights_HNL$dep_delay, y = flights_HNL$arr_delay)
+fig 
+
+```
