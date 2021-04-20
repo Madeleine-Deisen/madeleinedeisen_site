@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <title>Madeleine Deisen's Website</title>
+    <link>https://madeleinedeisen.netlify.app/</link>
+    <atom:link href="https://madeleinedeisen.netlify.app/index.xml" rel="self" type="application/rss+xml"/>
+    <description>Madeleine Deisen's Website
+</description>
+    <generator>Distill</generator>
+    <lastBuildDate>Sun, 18 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Mapping using R</title>
+      <dc:creator>Madeleine Deisen</dc:creator>
+      <link>https://madeleinedeisen.netlify.app/posts/2021-04-13-new-post</link>
+      <description>Here is an example of my mapping skills using R for a class assignment.</description>
+      <category>data</category>
+      <guid>https://madeleinedeisen.netlify.app/posts/2021-04-13-new-post</guid>
+      <pubDate>Sun, 18 Apr 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Graphs using R</title>
+      <dc:creator>Madeleine Deisen</dc:creator>
+      <link>https://madeleinedeisen.netlify.app/posts/2021-04-13-second-post</link>
+      <description>Here is an example of my graphing skills using R for a class assignment.</description>
+      <category>data</category>
+      <guid>https://madeleinedeisen.netlify.app/posts/2021-04-13-second-post</guid>
+      <pubDate>Sun, 18 Apr 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Welcome to Madeleine Deisen's Website</title>
+      <dc:creator>Madeleine Deisen</dc:creator>
+      <link>https://madeleinedeisen.netlify.app/posts/welcome</link>
+      <description>Welcome to my website! You can learn more about me and see examples of my writing and data projects.</description>
+      <guid>https://madeleinedeisen.netlify.app/posts/welcome</guid>
+      <pubDate>Sun, 18 Apr 2021 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
