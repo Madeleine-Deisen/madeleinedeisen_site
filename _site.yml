@@ -14,6 +14,8 @@ navbar:
       menu:
       - text: "My New Article"
         href: my-new-article.html
+      - text: "Teen Vogue Article"
+        href: https://www.teenvogue.com/story/georgia-senate-runoffs-youth-vote
 output: distill::distill_article
 collections:
   posts:

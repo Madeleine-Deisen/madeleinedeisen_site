@@ -12,20 +12,20 @@
       ],
       "date": "04-18-2021",
       "contents": "\r\nMy name is Madeleine Deisen, and I’m a Journalism & Mass Communication student at the George Washington University’s School of Media and Public Affairs. Through my journalism classes, I have learned to use R, Stata, and the Adobe Creative Suite. I am also experienced in news writing and reporting, and I have studied topics including journalism ethics, global journalism, and social media.\r\nIn addition to my journalism classes, I am minoring in Spanish & Latin American Languages, Literatures & Cultures. I studied abroad in Madrid through a GW program at the Universidad Autónoma de Madrid to hone my Spanish speaking and writing skills.\r\nI’m excited to share examples of my work with you through this website. Check out my blog posts for more details!\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-04-20T17:19:19-07:00"
+      "last_modified": "2021-04-20T17:42:50-07:00"
     },
     {
       "path": "index.html",
       "title": "Madeleine Deisen's Website",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-04-20T17:19:21-07:00"
+      "last_modified": "2021-04-20T17:42:53-07:00"
     },
     {
       "path": "README.html",
       "author": [],
       "contents": "\r\nmadeleinedeisen_site\r\nThis is a distill website I created for a class project. Here is a link to my website: https://madeleinedeisen.netlify.app/\r\n\r\n\r\n",
-      "last_modified": "2021-04-20T17:19:24-07:00"
+      "last_modified": "2021-04-20T17:42:58-07:00"
     }
   ],
   "collections": ["posts/posts.json"]
