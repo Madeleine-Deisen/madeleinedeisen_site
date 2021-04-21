@@ -10,6 +10,12 @@ navbar:
       href: index.html
     - text: "About"
       href: about.html
+      text: "R Projects"
+      menu:
+        text: "Mapping"
+        href: new-post.html
+        text: "Graphing"
+        text: second-post.html
 output: distill::distill_article
 collections:
   posts:
