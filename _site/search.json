@@ -12,20 +12,34 @@
       ],
       "date": "04-18-2021",
       "contents": "\r\nMy name is Madeleine Deisen, and I’m a Journalism & Mass Communication student at the George Washington University’s School of Media and Public Affairs. Through my journalism classes, I have learned to use R, Stata, and the Adobe Creative Suite. I am also experienced in news writing and reporting, and I have studied topics including journalism ethics, global journalism, and social media.\r\nIn addition to my journalism classes, I am minoring in Spanish & Latin American Languages, Literatures & Cultures. I studied abroad in Madrid through a GW program at the Universidad Autónoma de Madrid to hone my Spanish speaking and writing skills.\r\nI’m excited to share examples of my work with you through this website. Check out my blog posts for more details!\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-04-25T21:53:54-07:00"
+      "last_modified": "2021-04-25T22:19:28-07:00"
+    },
+    {
+      "path": "article.html",
+      "title": "Skills",
+      "description": "My journalism and professional skills\n",
+      "author": [
+        {
+          "name": "Madeleine Deisen",
+          "url": {}
+        }
+      ],
+      "date": "`r Sys.Date()`",
+      "contents": "\r\nTechnical skills:\r\nR and Stata – programming languages used for data analysis\r\nAdobe Premiere Pro – video editing software\r\nRundown Creator – software used to schedule, plan, and organize newscasts\r\nJournalism skills:\r\nPrint news writing in AP style\r\nBroadcast news writing\r\nInterviewing\r\nResearch\r\nDigital skills:\r\nBroadcast texting using Mobile Commons\r\nPeer-to-peer texting using Hustle\r\nWriting for Twitter, Instagram, and Facebook\r\nField organizing skills:\r\nPhone banking using tools including Hubdialer, ThruTalk, OpenVPB, and OpenVPB connect\r\nMobilize – website used to host volunteer events\r\nRelational organizing and the Reach canvassing app\r\nCanvassing to get-out-the-vote and fundraise\r\nVolunteer recruitment and training\r\nHosting virtual and in-person volunteer events\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-04-25T22:19:29-07:00"
     },
     {
       "path": "index.html",
       "title": "Madeleine Deisen's Website",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-04-25T21:53:56-07:00"
+      "last_modified": "2021-04-25T22:19:31-07:00"
     },
     {
       "path": "README.html",
       "author": [],
       "contents": "\r\nmadeleinedeisen_site\r\nThis is a distill website I created for a class project. Here is a link to my website: https://madeleinedeisen.netlify.app/\r\n\r\n\r\n",
-      "last_modified": "2021-04-25T21:53:59-07:00"
+      "last_modified": "2021-04-25T22:19:33-07:00"
     }
   ],
   "collections": ["posts/posts.json"]

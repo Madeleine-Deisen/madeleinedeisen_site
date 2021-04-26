@@ -1,0 +1,53 @@
+---
+title: "Skills"
+description: |
+  My journalism and professional skills
+author:
+  - name: Madeleine Deisen
+date: "`r Sys.Date()`"
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+**Technical skills:**
+
+-   R and Stata -- programming languages used for data analysis
+
+-   Adobe Premiere Pro -- video editing software
+
+-   Rundown Creator -- software used to schedule, plan, and organize newscasts
+
+**Journalism skills:**
+
+-   Print news writing in AP style
+
+-   Broadcast news writing
+
+-   Interviewing
+
+-   Research
+
+**Digital skills:**
+
+-   Broadcast texting using Mobile Commons
+
+-   Peer-to-peer texting using Hustle
+
+-   Writing for Twitter, Instagram, and Facebook
+
+**Field organizing skills:**
+
+-   Phone banking using tools including Hubdialer, ThruTalk, OpenVPB, and OpenVPB connect
+
+-   Mobilize -- website used to host volunteer events
+
+-   Relational organizing and the Reach canvassing app
+
+-   Canvassing to get-out-the-vote and fundraise
+
+-   Volunteer recruitment and training
+
+-   Hosting virtual and in-person volunteer events

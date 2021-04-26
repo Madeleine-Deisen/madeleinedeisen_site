@@ -12,6 +12,8 @@ navbar:
       href: about.html
     - text: "Experience"
       href: my-new-article.html
+    - text: "Skills"
+      href: article.html
     - text: "Work Samples"
       menu:
       - text: "Broadcast News Package: Chattahoochee River"
