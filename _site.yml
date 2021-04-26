@@ -10,6 +10,8 @@ navbar:
       href: index.html
     - text: "About"
       href: about.html
+    - text: "Experience"
+      href: my-new-article.html
     - text: "Work Samples"
       menu:
       - text: "Broadcast News Package: Chattahoochee River"

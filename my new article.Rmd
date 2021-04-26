@@ -1,12 +1,9 @@
 ---
-title: "Untitled"
+title: "Experience"
 description: |
-  A new article created using the Distill format.
+  Here is a short summary of my professional and educational experience.
 author:
   - name: Madeleine Deisen
-    url: https://example.com/norajones
-    affiliation: Spacely Sprockets
-    affiliation_url: https://example.com/spacelysprokets
 date: "`r Sys.Date()`"
 output: distill::distill_article
 ---
@@ -15,11 +12,80 @@ output: distill::distill_article
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-Distill is a publication format for scientific and technical writing, native to the web. 
+**Swing Left**
 
-Learn more about using Distill for R Markdown at <https://rstudio.github.io/distill>.
+*Georgia Runoff College Lead (*November 2020 -- January 2021)
 
+-   Led out-of-state volunteer recruitment efforts for the college programs and scheduled 380+ voter contact shifts
 
+-   Hosted 18 phone banking events and trained volunteers in collaboration with the Democratic Party of Georgia
 
+*College Network Lead* (March -- November 2020)
 
+-   Recruited and supported 13 Democratic student groups, contributing to a 550% increase in number of active groups in the DC turf
 
+-   Coordinated with out-of-state groups to contact voters in key states for a total of 900+ shifts scheduled
+
+-   Spearheaded planning and execution of virtual letter writing, phone banking, and relational organizing events and trained group leaders to expand and improve organizing efforts and host their own virtual events
+
+-   Consulted with Swing Left staff on program content, messaging, and resources as member of the Super State Youth Council and acted as spokesperson in the press for youth organizing
+
+**EMILY's List**
+
+*Digital Department Intern (*January -- August 2020)
+
+-   Wrote content for Facebook, Twitter, and Instagram pages with an audience of up to 2 million followers
+
+-   Drafted, built, and sent broadcast and peer-to-peer text messages to audience of up to 60,000 subscribers
+
+-   Researched pro-choice Democratic women candidates and social media trends and best practices to improve engagement
+
+**The Democratic Party of Georgia**
+
+*Field Manager (*May -- August 2019)
+
+-   Fundraised over \$12,000 through grassroots canvassing to support the party's efforts to turn GA blue
+
+-   Cooperated with field managers and directors to train the largest canvassing staff in the program's history
+
+-   Supervised teams of up to five canvassers while knocking on doors throughout metro Atlanta
+
+**Swing Left**
+
+*Regional Fellowship Coordinator (*March -- May 2019)
+
+-   Managed 14 college fellows on campuses across the country to host 18 events with over 100 volunteers during 10-week program
+
+-   Created meeting agendas and led group discussions for bi-weekly video conference calls with distributed group of fellows
+
+-   Selected by Swing Left leadership to conduct training for full cohort of college fellows with \~75 attendees
+
+*College Fellow (*July -- November 2018)
+
+-   Ranked in top five fellows nationwide in number of shifts pledged and volunteers recruited
+
+-   Expanded network of volunteers in seven phone banking, canvassing, and community events while partnering with allied organizations on campus
+
+-   Recruited, trained, and managed logistics of 35 volunteers on bus day trip to VA-07
+
+**The GW Hatchet**
+
+*Staff Writer and Reporter (*August 2018 -- May 2019)
+
+-   Reported and wrote news stories about GW's academic schools and programs for online and print publications
+
+-   Scheduled, conducted, and transcribed interviews with GW faculty and higher education experts
+
+-   Pitched story ideas at weekly meetings and collaborated with reporters and editors to meet tight deadlines
+
+**The George Washington University**
+
+*Bachelor of Arts in Journalism & Mass Communication, Minor in Spanish (*August 2018 -- May 2021)
+
+-   Elizabeth J. Somers Women's Leadership Program
+
+-   Hoberman Family Prize award winner
+
+-   Presidential Academic Scholar
+
+-   Dean's List
