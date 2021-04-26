@@ -10,12 +10,20 @@ navbar:
       href: index.html
     - text: "About"
       href: about.html
-    - text: "Articles"
+    - text: "Work Samples"
       menu:
-      - text: "My New Article"
-        href: my-new-article.html
-      - text: "Teen Vogue Article"
-        href: https://www.teenvogue.com/story/georgia-senate-runoffs-youth-vote
+      - text: "Broadcast News Package: Chattahoochee River"
+        href: https://youtu.be/5lAQVUbt16k
+      - text: "Broadcast News Package: For the People Act"
+        href: https://youtu.be/h8Mfttb7LgY
+      - text: "Mapping using R"
+        href: https://madeleinedeisen.netlify.app/posts/2021-04-13-new-post/
+      - text: "Graphing using R"
+        href: https://madeleinedeisen.netlify.app/posts/2021-04-13-second-post/
+      - text: "GW Hatchet News Articles"
+        href: https://www.gwhatchet.com/author/madeleine-deisen/
+      - text: "Mock Social Media Campaign"
+        href: https://spark.adobe.com/page/o8waFMKfWeTbg/
 output: distill::distill_article
 collections:
   posts:
